@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f3dcd4;
+}
+
+img{
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+    margin-top: -60px;
+}
+
+.header{
+    display: flex;
+    justify-content: left;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    gap: 80px;
+    background-color: #ecc9c7; 
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+a, li{
+    text-decoration: none;
+    list-style: none;
+    background-color: #ecc9c7;
+    color: black;
+}
+
+.container{
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 1200px;
+    max-height: 1000px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.classLeft{
+    width: 50%;
+    padding: 1rem;
+    margin-top: 150px;
+}
+
+.classRight{
+    width: 50%;
+    padding: 1rem;
+    margin-top: 150px;
+}
+
+h1{
+    font-family: sans-serif;
+    margin-block-end: 1rem;
+    background-color: black;
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;    
+}
+
+p{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    margin-block-end: 1rem;
+    color: gray;
+}
+
+button{
+    color:black;
+    background-color: pink;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    margin-right: 2rem;
+    padding: 10px;
+}
+
+button:hover{
+    color: #f3dcd4 ;
+    background-color: pink ;
+}

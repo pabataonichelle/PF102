@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #f3dcd4;
+}
+
+.header{
+    display: flex;
+    justify-content: left;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    gap: 80px;
+    background-color: #ecc9c7; 
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+a, li{
+    text-decoration: none;
+    list-style: none;
+    background-color: #ecc9c7;
+    color: black;
+}
+
+.sectionOne{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 100vh;
+    gap: 100px;
+}
+.img {
+    width: 30%;
+    border-radius: 50%;
+    border: 5px solid pink;
+
+}
+
+.sectionOne img{
+    border-radius: 50%;
+    border: 10px solid pink;
+}
+
+.info {
+    width: 400px;
+}
+
+.info :is(h1,p) {
+    margin-bottom: 10px;
+}
+
+.info h1 {
+    font-size: 3rem;
+    color: darkslategray;
+}
+
+.info p {
+    font-size: 20px;
+}
+
+.info button{
+    padding: 7px;
+    border-radius: 10px;
+    background-color:darkcyan ;  
+    color:azure ;
+    font-size: 1.2rem;
+}
+
+.sectionTwo {
+    height: 100hv;
+}
+
+.sectionTwo h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container p {
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.container button {
+    padding: 7px;
+    background-color:darkcyan ;  
+    color:azure ;
+    font-size: 1rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sectionTwo img {
+    border-radius: 20px;
+    border: 5px solid darkslategray;
+}
+
+.p1{
+    padding: 10px ;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+button {
+    transition: all .8s ease ;
+    border-radius: 10px;
+}
+
+.sectionTwo img{
+    width: 385px;
+    height: 300px;
+}
+
+.sectionTwo h1{
+    color:darkslategray;
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
