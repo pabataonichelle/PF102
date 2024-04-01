@@ -64,7 +64,7 @@ a:hover {
 
 .info h1 {
     font-size: 3rem;
-    color: darkslategray;
+    color: black;
 }
 
 .info p {
@@ -74,8 +74,8 @@ a:hover {
 .info button{
     padding: 7px;
     border-radius: 10px;
-    background-color:darkcyan ;  
-    color:azure ;
+    background-color:pink ;  
+    color:black ;
     font-size: 1.2rem;
 }
 
@@ -97,8 +97,8 @@ a:hover {
 
 .container button {
     padding: 7px;
-    background-color:darkcyan ;  
-    color:azure ;
+    background-color: pink ;  
+    color:black ;
     font-size: 1rem;
 }
 
