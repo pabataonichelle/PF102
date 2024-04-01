@@ -37,6 +37,12 @@ a, li{
     color: black;
 }
 
+a:hover {
+    color: pink;
+    font-size: 20px;
+    transition: ease-out;
+}
+
 .container{
     color: gray;
     display: flex;
