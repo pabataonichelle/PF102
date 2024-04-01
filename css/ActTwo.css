@@ -19,6 +19,10 @@
     font-family: sans-serif;
 }
 
+.Act2{
+    text-decoration: underline;
+}
+
 a, li{
     text-decoration: none;
     list-style: none;
