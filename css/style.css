@@ -30,6 +30,12 @@ a, li{
     color: black;
 }
 
+a:hover {
+    color: pink;
+    font-size: 20px;
+    transition: ease-out;
+}
+
 .body{
     padding: 2.5rem;
     background-color: gray;
