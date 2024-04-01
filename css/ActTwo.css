@@ -31,6 +31,7 @@ a, li{
 }
 
 .sectionOne{
+    margin-left: 40vh;
     display: flex;
     justify-content: center ;
     align-items: center;
@@ -38,7 +39,7 @@ a, li{
     gap: 100px;
 }
 .img {
-    width: 30%;
+    width: 60%;
     border-radius: 50%;
     border: 5px solid pink;
 
