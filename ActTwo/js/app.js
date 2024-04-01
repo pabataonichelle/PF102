@@ -13,15 +13,15 @@ const myObj2 = {
     comp : "Project Completed",
 
     img1 : "img1.PNG",
-    para1 : "",
+    para1 : " Hatdog ",
     btn1 : "Learn More",
 
     img2 : "img2.PNG",
-    para2 : "",
+    para2 : " Hatdog ",
     btn2 : "Learn More",
 
     img3 : "img3.PNG",
-    para3 : "",
+    para3 : " Hatdog ",
     btn3 : "Learn More"
 }
 
