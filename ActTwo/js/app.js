@@ -21,7 +21,7 @@ const myObj2 = {
     btn2 : "Learn More",
 
     img3 : "3.png",
-    para3 : "Responsive Website for an Ice cream Parlor ",
+    para3 : "Website for an Ice cream Parlor",
     btn3 : "Learn More"
 }
 
