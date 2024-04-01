@@ -35,6 +35,11 @@ a, li{
     background-color: #ecc9c7;
     color: black;
 }
+a:hover {
+    color: pink;
+    font-size: 20px;
+    transition: ease-out;
+}
 
 .container{
     padding-bottom: 2rem;
