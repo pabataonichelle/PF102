@@ -98,3 +98,35 @@ button:hover{
 .Act1{
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: row;
+        gap: 30px;
+        padding: 30px;
+        font-size: 1rem;
+    }
+
+    a:hover{
+        font-size: 1.5rem;
+    }
+
+    .classLeft,
+    .classRight {
+        width: 100%;
+    }
+
+    .container{
+        flex-direction: column-reverse;
+        margin: 20px;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 1rem;
+        text-align: justify;
+    }
+}
