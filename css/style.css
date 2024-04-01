@@ -13,7 +13,7 @@
 
 .header{
     display: flex;
-    justify-content: left;
+    justify-content: ce;
     padding-left: 1rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -79,6 +79,10 @@ h1{
     border-right: 3px solid transparent;
     color:bisque;
 }
+
+.home{
+    text-decoration: underline;
+   }
 
 @keyframes typing{
     from{
