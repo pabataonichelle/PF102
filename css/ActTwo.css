@@ -30,6 +30,12 @@ a, li{
     color: black;
 }
 
+a:hover {
+    color: pink;
+    font-size: 20px;
+    transition: ease-out;
+}
+
 .sectionOne{
     margin-left: 40vh;
     display: flex;
