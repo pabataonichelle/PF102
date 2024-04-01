@@ -93,7 +93,64 @@ h1{
 }
 
 @keyframes blink-caret{
-    from, to{
+    from, to{@media (max-width: 768px) {
+    .header {
+        flex-direction: row;
+        gap: 30px;
+        padding: 30px;
+        font-size: 1rem;
+    }
+
+    a:hover{
+        font-size: 1.5rem;
+    }
+
+    .text-animation{
+        font-size: 1.25rem;
+    }
+
+    img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .container {
+        margin-bottom: 50px;
+    }
+
+    .greet{
+        font-size: 1.5rem;
+    }
+
+    .name{
+        font-size: 1.5rem;
+    }
+
+    .body {
+        margin: 25px;
+    }
+
+    .learn{
+        font-size: 1.5rem;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .right,
+    .left {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .right {
+        order: 0;
+    }
+}
+
+    
         border-color: transparent;
     } 50%{
         border-color: darkslategray;
