@@ -25,6 +25,10 @@ img{
     font-family: sans-serif;
 }
 
+.Act1{
+    text-decoration: underline;
+   }
+
 a, li{
     text-decoration: none;
     list-style: none;
@@ -89,4 +93,8 @@ button{
 button:hover{
     color: #f3dcd4 ;
     background-color: pink ;
+}
+
+.Act1{
+    text-decoration: underline;
 }
