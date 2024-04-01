@@ -129,3 +129,61 @@ button {
     font-size: 3rem;
     padding-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: row;
+        gap: 30px;
+        padding: 30px;
+        font-size: 1rem;
+    }
+
+    a:hover{
+        font-size: 1.5rem;
+    }
+
+    .sectionOne {
+        margin-top: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sectionOne img {
+        width: 75%;
+    }
+
+    .sectionOne p{
+        font-size: 1.5rem;
+    }
+
+    .info,
+    .container p {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sectionTwo img {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .sectionTwo button{
+        margin-left: 37%;
+        margin-top: 10px;
+    }
+
+    .sectionTwo p{
+        margin-left: 10%;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .sectionTwo{
+        margin-bottom: 50px;
+    }
+}
