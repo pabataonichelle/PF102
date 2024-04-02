@@ -147,7 +147,8 @@ button {
     }
 
     .sectionOne {
-        margin-top: 20px;
+        margin-left: 0;
+        margin-top: 5rem;
         flex-direction: column;
         text-align: center;
     }
