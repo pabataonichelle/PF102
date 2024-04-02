@@ -98,7 +98,14 @@ h1{
 }
 
 @keyframes blink-caret{
-    from, to{@media (max-width: 768px) {
+    from, to{border-color: transparent;
+    } 50%{
+        border-color: darkslategray;
+    }
+}
+
+    
+@media (max-width: 768px) {
     .header {
         flex-direction: row;
         gap: 30px;
@@ -156,8 +163,3 @@ h1{
 }
 
     
-        border-color: transparent;
-    } 50%{
-        border-color: darkslategray;
-    }
-}
